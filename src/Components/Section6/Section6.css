@@ -1,0 +1,50 @@
+.sec6-heading{
+    margin-top: 3rem;
+    font-size: 2.875rem;
+    font-weight: 700;
+    text-align: center;
+}
+.relative-group{
+    margin-top: 1.4rem;
+}
+.groups{
+    background-color: #F9F9F9;
+    text-align: center;
+    padding: 4.5rem;
+    margin-top: -3rem;
+    border-bottom: 2px solid #C80000;
+    border-radius: 10px;
+}
+ @media (max-width:1400px) {
+    .group-mb{
+        padding-bottom: 3rem !important;
+    }
+ }
+
+
+
+ @media screen and (max-width: 992px) {
+    .sec6-heading {
+        font-size: 1.75rem; 
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .sec6-heading {
+        font-size: 1.5rem; 
+    }
+}
+
+@media screen and (max-width: 525px) {
+    .sec6-heading {
+        font-size: 1.25rem; 
+    }
+}
+
+
+@media (max-width:425px) {
+    .groups{
+        padding-left: 2rem !important;
+        padding-right: 2rem !important;
+    }
+}

@@ -1,0 +1,87 @@
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Montserrat", serif;
+
+}
+
+p,
+a {
+  font-family: "Poppins", serif;
+
+
+}
+
+
+
+
+
+
+
+
+
+/* Defaults */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* Primary Variables */
+:root {
+  --primary: "green";
+}
+
+
+
+.col-1,
+.col-2,
+.col-3,
+.col-4,
+.col-5,
+.col-6,
+.col-7,
+.col-8,
+.col-9,
+.col-10,
+.col-11,
+.col-12,
+.col {
+  /* border: 2px solid red; */
+}
+
+html {
+  scroll-behavior: smooth;
+}
+.container,
+.container-fluid {
+  /* border: 2px solid rebeccapurple; */
+
+}
+
+body {
+  background-color: #fff;
+}
+
+
+@media (max-width:992px) {
+    .icon-direction{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+        
+    }
+}
+
+
+

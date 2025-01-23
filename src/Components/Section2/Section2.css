@@ -1,0 +1,49 @@
+.sec2-bg{
+    padding-top: 5rem;
+}
+
+.sec2-heading{
+    font-weight: 700;
+    font-size: 2.813rem;
+    text-align: center;
+}
+
+.icon-direction{
+    display: flex;
+    align-items: center;
+    
+}
+
+.sec2-icon-p{
+    font-weight: 600;
+    font-size: 1.020rem;
+    margin-top: 1rem;
+    margin-left: 1.3rem;
+}
+
+@media (max-width:450px) {
+    .sec2-heading{
+        font-size: 1.6rem;
+    }
+}
+
+
+
+
+.rd-box {
+    background-color: #C80000;
+    width: 100%;
+    max-width: 28.625rem;
+    padding: 2rem;
+    margin-top: -10rem;
+    margin-bottom: 3rem ;
+    border-radius: 10px;
+    text-align: center;
+    color: #fff;
+  }
+
+  @media (min-width:440px) {
+    .rd-box{
+        display: none;
+    }
+  }

@@ -1,0 +1,39 @@
+.sec3-bg{
+    margin-top: 3.5rem;
+
+}
+.sec3-heading{
+    font-weight: 700;
+    font-size: 2.188rem;
+}
+
+.sec3-icon-p{
+    font-weight: 500;
+    font-size: 1.020rem;
+    margin-top: 1rem;
+    margin-left: 1.3rem;
+}
+
+@media (max-width:992px) {
+    
+    .sec3-pic-center{
+        display: flex;
+        justify-content: center;
+    }
+    .sec3-heading , .p-sec3 , .sec3-p , .sec3-btn{
+        text-align: center;
+        margin-top: 1rem;
+    }
+
+}
+
+@media (max-width:425px) {
+    .sec3-heading{
+        font-size: 1.7rem;
+    }
+}
+
+
+.sec3-p{
+    font-weight: 600;
+}

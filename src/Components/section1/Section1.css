@@ -1,0 +1,266 @@
+/* General Section Styles */
+.sec1-bg {
+  padding-top: 10rem;
+  background-image: url(/sec1-bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: left;
+}
+@media (min-width:992px) and (max-width:1199px) {
+  .red-box{
+    max-width: 25rem !important;
+  }
+  .sec1-p{
+    font-size: 0.4rem !important;
+  }
+}
+
+
+@media (max-width:1700px) and (min-width:1200px) {
+  .sec1-heading{
+    width: 55% !important;
+  }
+}
+
+@media (max-width:1200px) {
+  .sec1-heading{
+    width: 50% !important;
+  }
+  .sec1-p{
+    font-size: 1.2rem !important;
+  }
+}
+
+@media (max-width:992px) {
+  .sec1-bg{
+  background-image: url(/sec1-bg-mobile.png) !important;
+  
+    
+  }
+}
+
+@media (min-width:992px) {
+  .red-box{
+    margin-left: 0rem !important;
+  }
+}
+
+@media (min-width:768px) and (max-width:992px) {
+  .sec1-bg{
+    height: 135vh !important;
+  }
+
+  .sec1-container{
+    margin-top: -60rem !important;
+    text-align: center;
+    width: 100%;
+
+  }
+  .sec1-heading{
+    width: 100% !important;
+    margin-left: 2rem !important;
+  }
+  .red-box{
+    margin-left: 3.5rem !important;
+  }
+  .sec1-p{
+    margin-left: 5rem !important;
+  }
+}
+
+@media (min-width:576px) and (max-width:768px) {
+  .sec1-bg{
+    height: 170vh !important;
+  }
+
+  .sec1-container{
+    margin-top: -40rem;
+    text-align: center;
+    width: 100%;
+
+  }
+  .sec1-heading{
+    width: 100% !important;
+    margin-left: 2rem !important;
+  }
+  .red-box{
+    margin-left: 3.5rem !important;
+  }
+  .sec1-p{
+    margin-left: 4.5rem !important;
+  }
+  
+}
+
+@media (min-width:767px) and (max-width:992px) {
+  .red-box{
+    margin-left: 9.5rem !important;
+  }
+}
+
+
+.sec1-heading {
+  font-weight: 800;
+  font-size: 3rem;
+  line-height: 1.2;
+  width: 60%;
+}
+
+.sec1-p {
+  margin-top: 1.5rem;
+  font-size: 1.25rem;
+  color: #333;
+}
+
+.red-box {
+  background-color: #C80000;
+  width: 100%;
+  max-width: 28.625rem;
+  padding: 2rem;
+  border-radius: 10px;
+  text-align: center;
+  color: #fff;
+}
+
+.red-box h1 {
+  font-weight: 700;
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+
+/* Responsive Design */
+@media (max-width: 992px) {
+  .sec1-heading {
+    font-size: 2.5rem;
+    margin-left: -1rem;
+  }
+  .sec1-p {
+ 
+    margin-left: -1rem;
+  }
+  .red-box{
+    margin-left: -1rem;
+  }
+}
+
+/* @media (max-width: 768px) {
+  .sec1-bg {
+    padding-top: 8rem;
+  
+  }
+ 
+  .sec1-heading {
+    font-size: 2rem !important;
+    text-align: center;
+    margin-left: -2.5rem;
+    width: 65% !important;
+  }
+  .sec1-p {
+    font-size: 0.8rem;
+   
+    width: 40%;
+    text-align: center;
+    margin-left: 1.5rem;
+  }
+  .red-box {
+    padding: 1.5rem;
+    margin-left: -2rem;
+    
+    width: 60%;
+  }
+} */
+
+@media (max-width: 576px) {
+  .sec1-heading {
+    font-size: 2.5rem !important;
+    text-align: center;
+    width: auto !important;
+  }
+  .sec1-container{
+    margin-top: -35em;
+    margin-left: 2rem;
+  }
+  .sec1-p {
+    font-size: 0.9rem;
+    text-align: center;
+    width: 100%;
+    margin-left: -1rem;
+
+  }
+  .red-box {
+    padding: 1.2rem;
+    margin-left: 0rem;
+    width: 93% ;
+
+  }
+  .red-box h1 {
+    font-size: 1.5rem;
+  }
+  .sec1-bg{
+    height: 160vh !important;
+  }
+}
+
+
+@media (max-width: 440px) {
+  .sec1-container {
+    margin-top: -23em;
+    margin-left: 1rem;
+    font-size: 1rem !important;
+    width: auto !important;
+  }
+  .sec1-heading {
+    font-size: 2rem !important;
+    margin-left: auto;
+  }
+  .sec1-p {
+    font-size: 1rem !important;
+    margin-top: 0rem;
+    width: auto !important;
+    margin-left: auto;
+  }
+  .red-box {
+    width: 90%;
+   margin-left: 1rem;
+   display: none;
+  }
+  .sec1-row{
+    padding: 0 !important;
+  }
+  .sec1-bg{
+    height: 100vh !important;
+  }
+}
+
+@media (max-width: 340px) {
+  .sec1-container {
+    margin-top: -22em;
+    margin-left: 1rem;
+  }
+  .sec1-bg{
+    height: 135vh !important;
+  }
+  .sec1-heading {
+    font-size: 1.8rem !important;
+    width: auto !important;
+  }
+ 
+  .red-box {
+    width: 100%;
+    padding: 1rem;
+    margin-left: 0rem;
+  }
+  .red-box h1 {
+    font-size: 1.3rem;
+  }
+ 
+}
+
+
+
+
