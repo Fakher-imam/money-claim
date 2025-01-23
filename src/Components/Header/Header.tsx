@@ -69,10 +69,10 @@ const Header = () => {
                 </button>
                 <ul className={`nav-links ${isMenuOpen ? 'active' : ''}`}>
                     
-                    <li><a href="#about" onClick={closeMenu}>FCA - Report & Findings</a></li>
-                    <li><a href="#services" onClick={closeMenu}>Start Claim</a></li>
+                    <li><a href="#Report & Findings" onClick={closeMenu}>FCA - Report & Findings</a></li>
+                    <li><a href="#Start Claim" onClick={closeMenu}>Start Claim</a></li>
                    
-                    <li><a href="#portfolio" onClick={closeMenu}>Contact</a></li>
+                    <li><a href="#Contact" onClick={closeMenu}>Contact</a></li>
                     <li><button style={{border:'none'}} className='headerbutton' onClick={closeMenu}>Check Now</button></li>
                 </ul>
                 {isMenuOpen && <div className="overlay" onClick={toggleMenu}></div>}
