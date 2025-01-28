@@ -209,6 +209,36 @@
 
 @media (max-width: 440px) {
   .sec1-container {
+    margin-top: -22em;
+    margin-left: 1rem;
+    font-size: 1rem !important;
+    width: auto !important;
+  }
+  .sec1-heading {
+    font-size: 2rem !important;
+    margin-left: auto;
+  }
+  .sec1-p {
+    font-size: 1rem !important;
+    margin-top: 0rem;
+    width: auto !important;
+    margin-left: auto;
+  }
+  .red-box {
+    width: 90%;
+   margin-left: 1rem;
+   display: none;
+  }
+  .sec1-row{
+    padding: 0 !important;
+  }
+  .sec1-bg{
+    height: 100vh !important;
+  }
+}
+
+@media (max-width: 375px) {
+  .sec1-container {
     margin-top: -23em;
     margin-left: 1rem;
     font-size: 1rem !important;
@@ -239,7 +269,7 @@
 
 @media (max-width: 340px) {
   .sec1-container {
-    margin-top: -22em;
+    margin-top: -30em;
     margin-left: 1rem;
   }
   .sec1-bg{
